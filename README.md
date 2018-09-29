@@ -7,3 +7,8 @@ API endpoint that generates new Bitcoin addresses on server, passes public key b
 * C#
 * MongoDB
 * Docker
+
+# Building project
+Run the docker compose file:
+
+     Docker-Compose run
