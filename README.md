@@ -11,4 +11,4 @@ API endpoint that generates new Bitcoin addresses on server, passes public key b
 # Building project
 Run the docker compose file:
 
-     docker-compose run
+     docker-compose up
