@@ -23,11 +23,15 @@ If you are developing outside of docker you may need to run:
 
     dotnet restore
 
-to ensure all packages are available.
+...before running
+
+    dotnet build
+
+...to ensure all packages are available. You should also note that your ports may be different than the Compose focused instructions provided below.
 
 # Running the demo
 Once you have your project running you can access the API endpoint using a GET request in your browser:
-*http://localhost:8000/api/generate/publickeys/{int:count}
+**localhost:8000/api/generate/publickeys/{int:count}**
 
 Here is an example resulting in a single public key being generated:
 
