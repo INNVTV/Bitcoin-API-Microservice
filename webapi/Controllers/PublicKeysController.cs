@@ -14,7 +14,7 @@ namespace webapi.Controllers
     [ApiController]
     public class PublicKeysController : ControllerBase
     {
-        // GET api/publickeys/1
+        // GET api/generate/publickeys/1
         [HttpGet("{count}")]
         public ActionResult<List<string>> Get(int count)
         {
