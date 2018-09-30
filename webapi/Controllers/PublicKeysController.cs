@@ -41,7 +41,7 @@ namespace webapi.Controllers
                         new BsonDocument{
                             {"public", key.GetAddress().ToString()},
                             {"private", key.ToWif()}
-                        });      
+                        });
                 }
             }
 
