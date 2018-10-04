@@ -49,4 +49,4 @@ To test that private keys are being stored use a MongoDB client such as Compass,
 As long as you don't shut down your docker instances after generating a few keys you should see the public keys with their associated private keys stored as records in the "keys" collection under the "bitcoin" database.
 
 # Security
-In a production environment you should encrypt the private key(s) prior to database storage. The application itself should only have a key for encryption. The decryption key should be held in a secure location accesable only to a secondary microservice that is used for signing transactions.
+In a production environment you should encrypt the private key(s) prior to database storage. The application itself should only have a key for encryption. The decryption key should be held in a secure location accessible only to a secondary microservice that is used for signing transactions.
